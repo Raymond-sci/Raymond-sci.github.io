@@ -8,17 +8,24 @@ html {
 body {
     width: 100%;
     min-height: 100%;
+    max-width: 75em;
     margin: 0;
     padding: 0 5vw;
     padding-bottom: 3em;
-    font-family: "Tahoma","sans-serif";
+    font-family: "Serif","sans-serif";
     text-align: left;
     position: relative;
+    font-size: 16px;
 }
 
 .thumb {
-    width: 10em;
-    margin: 1em 0;
+    width: 9em;
+    margin: 1em 2em 0 0;
+    float: left;
+}
+
+#contact{
+    padding-top: 1em;
 }
 
 space {
@@ -28,8 +35,25 @@ space {
     padding: 0;
 }
 
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
 p[role="update_time"] {
     position: absolute;
     bottom: 0;
     color: #b2b2b2;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+span.news {
+    font-weight: bold;
+    color: red;
+    margin-left: 0.5em;
 }
