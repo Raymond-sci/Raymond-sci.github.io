@@ -1,0 +1,15 @@
+<div id="news">
+    <p><big><strong>NEWS</strong></big></p>
+    <ul>
+        {% for new in site.data.news %}
+        <li>
+            {{ new.date | date: "%Y.%m.%d" }}
+            <space></space>
+            {{ new.content }}
+            {% if new.highlight %}
+                <span class="news">[NEW!]</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,20 @@
+<div id="contact">
+  <img src="assets/home/thumb.jpg" class="thumb"/>
+  <p><big><strong>{{ site.author.firstname }} ({{ site.author.nickname }}) {{ site.author.lastname }}</strong></big></p>
+  <p>
+    {% for affliation in site.author.affliations %}
+      {% if affliation.link %}
+        <a href="{{ affliation.link }}">{{ affliation.name }}</a><br/>
+      {% else %}
+        {{ affliation.name }}<br/>
+      {% endif %}
+      {% if affliation.address %}
+        {% for line in affliation.address %}
+          {{ line.line }}<br/>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    Tel: {{ site.author.phone }}<br/>
+    E-mail: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  </p>
+</div>

@@ -1,0 +1,39 @@
+# global variables
+author:
+  firstname: Jiabo
+  lastname: Huang
+  nickname: Raymond
+  email: jiabo.huang@qmul.ac.uk
+  phone: +0044 07561775861
+  affliations:
+    - name: Computer Vision Group
+      link: http://www.dcs.qmul.ac.uk/research/vision/
+    - name: School of Electronic Engineering and Computer Science
+      link: http://www.eecs.qmul.ac.uk/
+    - name: Queen Mary Univserity of Lonon
+      link: http://www.qmul.ac.uk/
+      address:
+        - line: Mile End Road
+        - line: London E1 4NS, UK
+        - line: CS Room 329
+  thumb: asserts/home/thumb.jpg
+  # baseurl: "" # the subpath of your site, e.g. /blog
+  # url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  github:  Raymond-sci@github.com
+
+# Project pages setings
+defaults:
+  - scope:
+      path: "_posts"
+      categories: project
+    values:
+      layout: project
+      permalink: /project/:title
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+# theme: minima
+plugins:
+  - jekyll-feed

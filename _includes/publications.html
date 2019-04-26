@@ -1,0 +1,40 @@
+<ul>
+    {% for item in site.categories.paper %}
+    {% if item.tags contains "public" %}
+    <li>
+        <p>
+            <span>{{ item.paper.title }}</span><br/>
+            <span>
+                {% for author in item.paper.authors %}
+                  {% if author.bold %}<b>{{ author.name }}</b>{% else %}{{ author.name }}{% endif %}{% if author != item.paper.authors.last %}, {% endif %}
+                {% endfor %}
+            </span><br/>
+            <i> In Proc. 
+              {{ item.paper.publish.name }},
+              {{ item.paper.publish.place }},
+              {{ item.paper.publish.date | date: "%b %Y"}}. 
+              (<b>{{ item.paper.publish.shortname}}</b>).
+            </i><br/>
+            <!-- pdf link -->
+            {% if item.tags contains "uploaded" %}
+                [<a href="{{ item.paper.link }}">PDF</a>]
+            {% else %}
+                [<a class="disabled">PDF</a>]
+            {% endif %}
+            <!-- code link -->
+            {% if item.tags contains "open-sourced" %}
+                [<a href="{{ item.code }}">Code</a>]
+            {% else %}
+                [<a class="disabled">Code</a>]
+            {% endif %}
+            <!-- project page -->
+            {% if item.tags contains "project-page" %}
+                [<a href="{{ item.url | prepend: site.baseurl }}">Project</a>]
+            {% else %}
+                [<a class="disabled">Project</a>]
+            {% endif %}
+        </p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

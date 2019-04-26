@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link type="text/css" rel="stylesheet" href="assets/home/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="assets/home/style.css">
+</head>
+<body>
+    {% include contact.html %}
+    {% include biography.html %}
+    <hr />
+    {% include news.html %}
+    <hr />
+    <p><big><strong>PUBLICATIONS</strong></big></p>
+    {% include publications.html %}
+    <!-- <hr /> -->
+    <!-- <p><big><strong>PROJECTS</strong></big></p> -->
+    <p role="update_time"><small>Last updated at 2019.04.24</small></p>
+</body>
+</html>
