@@ -23,13 +23,17 @@
             {% endif %}
             <!-- code link -->
             {% if item.tags contains "open-sourced" %}
-                [<a href="{{ item.code }}">Code</a>]
+                [<a href="{{ site.author.github }}/{{ item.code }}">Code</a>]
             {% else %}
                 [<a class="disabled">Code</a>]
             {% endif %}
             <!-- project page -->
             {% if item.tags contains "project-page" %}
+                {% if item.project == "self" %}
                 [<a href="{{ item.url | prepend: site.baseurl }}">Project</a>]
+                {% else %}
+                [<a href="{{ item.project }}">Project</a>]
+                {% endif %}
             {% else %}
                 [<a class="disabled">Project</a>]
             {% endif %}

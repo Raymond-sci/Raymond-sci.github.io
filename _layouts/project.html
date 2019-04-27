@@ -1,12 +1,57 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)https://qmul-survface.github.io/QMUL-SurvFace/index.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <link href="/assets/project/style.css" rel="stylesheet">
 </head>
 <body>
-  <h1>{{ page.paper.title }}</h1>
+  <div id="content">
+    <div id="content-inner">
+      <h1 class="title">{{ page.paper.title }}</h1>
+      {% if page.tags contains "accepted" %}
+      <p class="center">
+        <em>Accepted by {{ page.paper.publish.name}} ({{ page.paper.publish.shortname }})</em>
+      </p>
+      {% endif %}
+      <p class="authors">
+      {% for author in page.paper.authors %}
+        {% if author.bold %}
+          <b><a href="{{ author.link }}">{{ author.name }}</a></b>
+        {% else %}
+          <a href="{{ author.link }}">{{ author.name }}</a>
+        {% endif %}
+        {% if author != page.paper.authors.last %}
+        <space></space>
+        {% endif %}
+      {% endfor %}
+      </p>
+      <p class="affiliations">
+      {% for affiliation in page.paper.affiliations %}
+        <a href="{{ affiliation.link }}">{{ affiliation.name }}</a>
+        {% if affiliation != page.paper.affiliations.last %}
+        <space></space>
+        {% endif %}
+      {% endfor %}
+      </p>
+      {{ page.content }}
+      <p role="update_time"><small>Last updated at {{ site.time | date: '%Y.%m.%d' }}</small></p>
+    </div>
+  </div>
 </body>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
 </html>

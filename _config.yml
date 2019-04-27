@@ -19,7 +19,7 @@ author:
   thumb: asserts/home/thumb.jpg
   # baseurl: "" # the subpath of your site, e.g. /blog
   # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-  github:  Raymond-sci@github.com
+  github:  https://github.com/Raymond-sci
 
 # Project pages setings
 defaults:
@@ -28,7 +28,12 @@ defaults:
       categories: project
     values:
       layout: project
-      permalink: /project/:title
+      permalink: /projects/:title
+      assets_dir: /assets/project
+
+scholar:
+  source: assets/project/
+  bibliography: "**/*.bib{,tex}"
 
 # Build settings
 markdown: kramdown
@@ -37,3 +42,4 @@ kramdown:
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll/scholar
