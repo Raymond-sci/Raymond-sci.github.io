@@ -1,10 +1,12 @@
+- date: 2019-12-11
+  content: One paper accepted by AAAI'19
+  highlight: True
+
 - date: 2019-04-29
   content: Paper and code for our ICML'19 work are available
-  highlight: True
 
 - date: 2019-04-24
   content: One paper accepted by ICML'19
-  highlight: True
 
 - date: 2018-09-17
   content: I am now study at QMUL as a PhD student

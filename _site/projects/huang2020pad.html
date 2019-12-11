@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)https://qmul-survface.github.io/QMUL-SurvFace/index.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>huang2020pad</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="/assets/project/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+    <div id="content-inner">
+      <h1 class="title">Unsupervised Deep Learning via Affinity Diffusion</h1>
+      
+      <p class="center">
+        <em>Accepted by AAAI Conference on Artificial Intelligence (AAAI'20)</em>
+      </p>
+      
+      <p class="authors">
+      
+        
+          <b><a href="http://www.eecs.qmul.ac.uk/~jh327/">Jiabo Huang</a></b>
+        
+        
+        <space></space>
+        
+      
+        
+          <a href="http://www.eecs.qmul.ac.uk/~qd301/">Qi Dong</a>
+        
+        
+        <space></space>
+        
+      
+        
+          <a href="http://www.eecs.qmul.ac.uk/~sgg/">Shaogang Gong</a>
+        
+        
+        <space></space>
+        
+      
+        
+          <a href="http://www.eecs.qmul.ac.uk/~xiatian/">Xiatian Zhu</a>
+        
+        
+      
+      </p>
+      <p class="affiliations">
+      
+        <a href="http://vision.eecs.qmul.ac.uk/">Queen Mary University of London</a>
+        
+        <space></space>
+        
+      
+        <a href="http://www.visionsemantics.com/">Vision Semantics Limited</a>
+        
+      
+      </p>
+      <p><img src="/assets/project/huang2020pad/pipeline.jpg" alt="cover" width="90%" class="center" />
+<!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
+
+<h2 id="description">Description</h2>
+<p>Convolutional neural networks (CNNs) trained in a supervised fashion have significantly boosted the state-of-the-art performance in computer vision. Moreover, the feature representations of a supervised CNN (e.g. trained for classification on ImageNet) generalise to new tasks. Despite such remarkable success, this approach is limited due to a number of stringent assumptions that do not always hold valid. Due to the only need for access of unlabelled data typically available at scale, unsupervised deep learning provides a conceptually generic and scalable solution to these limitations.</p>
+
+<p>One intuitive strategy for unsupervised deep learning is joint learning of feature representations and data clustering. This objective is extremely hard due to the numerous combinatorial configurations of unlabelled data alongside highly complex inter-class decision boundaries. To avoid clustering errors as well as the following propagation, instance learning is proposed whereby every single sample is treated as an independent class. However, this simplified supervision is often rather ambiguous particularly around class centres, therefore, leading to weak class discrimination. As an intermediate representation, tiny neighbourhoods are leveraged for preserving the advantages of both data
+clustering and instance learning. But this method is restricted by the small size of local neighbourhoods.</p>
+
+<p>In this work, we aim to solve the algorithmic limitations of existing unsupervised deep learning methods. To that end, we propose a general-purpose <em>Progressive Affinity Diffusion</em> (PAD) method for training unsupervised models. Requiring no prior knowledge of class number, PAD performs
+model-matureness-adaptive data group inference in training for more reliably revealing the underlying sample-to-class memberships.</p>
+
+<p>We make three contributions:</p>
+<ol>
+  <li>We propose a novel idea of leveraging strongly connected subgraphs as a self-supervision structure for more reliable unsupervised deep learning.</li>
+  <li>We formulate a <em>Progressive Affinity Diffusion</em> (PAD) method for modelmatureness-adaptive discovery of strongly connected subgraphs during training through affinity diffusion across adjacent neighbourhoods.</li>
+  <li>We design a group structure aware objective loss formulation for more discriminative capitalising of strongly connected subgraphs in model representation learning.</li>
+</ol>
+
+<h2 id="benchmarks">Benchmarks</h2>
+<p>Extensive experiments are conducted on both image classification and cluster analysis using the following six datasets and the results show the advantages of our PAD method over a wide variety of existing state-of-the-art approaches.</p>
+<ul>
+  <li><strong>CIFAR10(/100)</strong>: An image dataset with 50,000/10,000 train/test images from 10 (/100) object classes.Each class has 6,000 (/600) images with size <script type="math/tex">32\!\times\!32</script>.</li>
+  <li><strong>SVHN</strong>: A Street View House Numbers dataset including 10 classes of digit images.</li>
+  <li><strong>ImageNet</strong>: A large 1,000 classes object dataset with 1.2 million images for training and 50,000 for test.</li>
+  <li><strong>MNIST</strong>: A hand-written digits dataset with 60,000/10,000 train/test images from 10 digit classes.</li>
+  <li><strong>STL10</strong>: An ImageNet adapted dataset containing 500/800 train/test samples from 10 classes as well as 100,000 unlabelled images from auxiliary unknown classes.</li>
+</ul>
+
+<p>Please kindly refer to the <a href="https://xiatian-zhu.github.io/papers/HuangEtAl_AAAI2020.pdf">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>
+
+      <!-- <p role="update_time"><small>Last updated at 2019.12.11</small></p> -->
+    </div>
+  </div>
+</body>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+</html>
