@@ -14,8 +14,8 @@ author:
       link: http://www.qmul.ac.uk/
       address:
         - line: Mile End Road
-        - line: London E1 4NS, UK
-        - line: CS Room 329
+        - line: London, E1 4NS, UK
+        - line: CS Room 329, Peter Landin Building
   thumb: asserts/home/thumb.jpg
   # baseurl: "" # the subpath of your site, e.g. /blog
   # url: "" # the base hostname & protocol for your site, e.g. http://example.com

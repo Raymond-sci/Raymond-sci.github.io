@@ -9,15 +9,19 @@
                   {% if author.bold %}<b>{{ author.name }}</b>{% else %}{{ author.name }}{% endif %}{% if author != item.paper.authors.last %}, {% endif %}
                 {% endfor %}
             </span><br/>
-            <i> In Proc. 
-              {{ item.paper.publish.name }},
-              {{ item.paper.publish.place }},
-              {{ item.paper.publish.date | date: "%b %Y"}}. 
-              (<b>{{ item.paper.publish.shortname}}</b>).
-            </i><br/>
+            In Proc.
+            <i>{{ item.paper.publish.name }}</i>,
+            {{ item.paper.publish.place }},
+            {{ item.paper.publish.date | date: "%b %Y"}}. 
+            (<b>{{ item.paper.publish.shortname}}</b>).
+            <br/>
             <!-- pdf link -->
             {% if item.tags contains "uploaded" %}
+                {% if item.paper.link == "self" %}
+                [<a href="{{ item.assets_dir }}/{{ item.title }}/paper.pdf">PDF</a>]
+                {% else %}
                 [<a href="{{ item.paper.link }}">PDF</a>]
+                {% endif %}
             {% else %}
                 [<a class="disabled">PDF</a>]
             {% endif %}

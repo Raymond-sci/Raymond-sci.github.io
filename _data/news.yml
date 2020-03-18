@@ -1,6 +1,9 @@
+- date: 2020-03-05
+  content: One paper accepted by CVPR'20
+  highlight: True
+
 - date: 2019-12-11
   content: One paper accepted by AAAI'20
-  highlight: True
 
 - date: 2019-04-29
   content: Paper and code for our ICML'19 work are available
@@ -8,11 +11,11 @@
 - date: 2019-04-24
   content: One paper accepted by ICML'19
 
-- date: 2018-09-17
-  content: I am now studying at QMUL as a PhD student
+# - date: 2018-09-17
+#   content: I am now studying at QMUL as a PhD student
 
-- date: 2018-06-30
-  content: My master program at SYSU is finished
+# - date: 2018-06-30
+#   content: My master program at SYSU is finished
 
-- date: 2018-06-02
-  content: Starting my internship at <a href="https://ai.tencent.com/ailab/index.html">Tencent's AI Lab</a> (Computer Vision Center)
+# - date: 2018-06-02
+#   content: Starting my internship at <a href="https://ai.tencent.com/ailab/index.html">Tencent's AI Lab</a> (Computer Vision Center)

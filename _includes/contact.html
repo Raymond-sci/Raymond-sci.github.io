@@ -1,6 +1,6 @@
 <div id="contact">
   <img src="assets/home/thumb.jpg" class="thumb"/>
-  <p><big><strong>{{ site.author.firstname }} ({{ site.author.nickname }}) {{ site.author.lastname }}</strong></big></p>
+  <p><big><strong>{{ site.author.firstname }} {{ site.author.lastname }}</strong></big></p>
   <p>
     {% for affliation in site.author.affliations %}
       {% if affliation.link %}
@@ -14,7 +14,7 @@
         {% endfor %}
       {% endif %}
     {% endfor %}
-    Tel: {{ site.author.phone }}<br/>
+    <!-- Tel: {{ site.author.phone }}<br/> -->
     E-mail: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
   </p>
 </div>

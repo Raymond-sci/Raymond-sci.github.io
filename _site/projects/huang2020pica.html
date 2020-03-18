@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)https://qmul-survface.github.io/QMUL-SurvFace/index.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>huang2020pica</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="/assets/project/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+    <div id="content-inner">
+      <h1 class="title">Deep Semantic Clustering by Partition Confidence Maximisation</h1>
+      
+      <p class="center">
+        <em>Accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20)</em>
+      </p>
+      
+      <p class="authors">
+      
+        
+          <b><a href="http://www.eecs.qmul.ac.uk/~jh327/">Jiabo Huang</a></b>
+        
+        
+        <space></space>
+        
+      
+        
+          <a href="http://www.eecs.qmul.ac.uk/~sgg/">Shaogang Gong</a>
+        
+        
+        <space></space>
+        
+      
+        
+          <a href="https://xiatian-zhu.github.io/">Xiatian Zhu</a>
+        
+        
+      
+      </p>
+      <p class="affiliations">
+      
+        <a href="http://vision.eecs.qmul.ac.uk/">Queen Mary University of London</a>
+        
+        <space></space>
+        
+      
+        <a href="https://www.surrey.ac.uk/">University of Surrey</a>
+        
+      
+      </p>
+      <p><img src="/assets/project/huang2020pica/pipeline.jpg" alt="cover" width="90%" class="center" />
+<!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
+
+<h2 id="description">Description</h2>
+
+<p>Deep Clustering, which jointly optimises the objectives of representation learning and clustering with the help of deep learning techniques, is proposed to address the limitation of traditional cluster analysis algorithms when dealing with high-dimensional imagery data with indiscriminative visual representations. Although conducting cluster analysis with learnable representations holds the potential to benefit clustering on unlabelled data, how to improve the semantic plausibility of these clusters remains an open problem.</p>
+
+<p>Recent deep clustering models either iteratively estimate cluster assignment and/or inter-sample relations which are then used as hypotheses in supervising the learning of deep neural networks, or used in conjunction with cluster constraints. The alternate training strategy is susceptible to error-propagation due to inaccurate membership estimation. The simultaneous one, which usually supervised by pretext tasks that require good cluster structure, suffers from the vague connection between training supervision and cluster objectives. Without global solution-level guidance to select from all the possible separations, the resulted clusters tend to be semantically less plausible.</p>
+
+<p>In this work, we propose a deep clustering method called <em>PartItion Confidence mAximisation</em> (PICA). Due to the high visual similarity shared by samples from the same semantic classes, assigning them into different clusters will reduce the resulted intra-cluster compactness and inter-cluster diversity, <em>i.e.</em> lower partition confidence. Based on this insight, PICA is designed to encourage the model to learn the most <em>confident</em> clusters from all the possible solutions in order to find the most semantically plausible inter-class separation. This is in spirit of traditional maximal margin clustering which also seeks for most separable clustering solutions with shallow models (<em>e.g.</em> SVM), but differs notably in that both the feature representations and decision boundaries are end-to-end learned in our deep learning model. Specifically, a partition uncertainty index (PUI) is proposed to quantifies how confidently a deep model can make sense and separate a set of target images. A stochastic approximation of PUI is introduced to enable standard mini-batch based learning and a novel objective loss function is formulated for training with any off-the-shelf networks.</p>
+
+<p>Our <em>contributions</em> are threefold:</p>
+<ol>
+  <li>We propose the idea of learning the most semantically plausible clustering solution by maximising partition confidence, which extends the classical maximal margin clustering idea to the deep learning paradigm. 
+<!-- The proposed method makes no strong hypothesis on local inter-sample relations and/or cluster assignment which usually leads to error-propagation and inferior clustering solutions.  --></li>
+  <li>We introduce a novel deep clustering method, called <em>PartItion Confidence mAximisation</em> (PICA) which is built upon a newly introduced partition uncertainty index that is designed elegantly to quantify the global confidence of the clustering solution. 
+<!-- To enable formulating a deep learning objective loss function, a novel transformation of the partition uncertainty index is further proposed. PICA can be trained end-to-end using a single objective loss function without whistles and bells (*e.g.* complex multi-stage alternation and multiple loss functions) to simultaneously learn a deep neural network and cluster assignment that can be mapped to the semantic category one-to-one. --></li>
+  <li>A stochastic approximation of the partition uncertainty index is formulated to decouple it from the whole set of target images, therefore, enabling a ready adoption of the standard mini-batch model training.</li>
+</ol>
+
+<h2 id="benchmarks">Benchmarks</h2>
+<p>Extensive experiments are conducted on six challenging objects recognition benchmarks which demonstrates the advantages of PICA over a wide range of the state-of-the-art approaches.</p>
+<ul>
+  <li><strong>CIFAR10(/100)</strong>: A natural image dataset with 50,000/10,000 samples from 10(/100) classes for training and testing respectively.</li>
+  <li><strong>STL10</strong>: An ImageNet sourced dataset containing 500/800 training/test images from each of 10 classes and additional 100,000 samples from several unknown categories.</li>
+  <li><strong>ImageNet-10 and ImageNet-Dogs</strong>:
+Two subsets of ImageNet: the former with 10 random selected subjects and the latter with 15 dog breeds.</li>
+  <li><strong>Tiny-ImageNet</strong>: A subset of ImageNet with 200 classes. There are 100,000/10,000 training/test images evenly distributed in each category.</li>
+</ul>
+
+<p>Please kindly refer to the <a href="/assets/project/huang2020pica/paper.pdf">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>
+
+      <!-- <p role="update_time"><small>Last updated at 2020.03.18</small></p> -->
+    </div>
+  </div>
+</body>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+</html>

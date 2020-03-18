@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Jiabo Huang's Homepage
+title: Jiabo Huang
 ---

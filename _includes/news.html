@@ -1,10 +1,21 @@
-<div id="news">
-    <p><big><strong>NEWS</strong></big></p>
+<!-- <div id="news">
     <ul>
         {% for new in site.data.news %}
         <li>
             {{ new.date | date: "%Y.%m.%d" }}
             <space></space>
+            {{ new.content }}
+            {% if new.highlight %}
+                <span class="news">[NEW!]</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div> -->
+<div id="news">
+    <ul class="circle">
+        {% for new in site.data.news %}
+        <li>
             {{ new.content }}
             {% if new.highlight %}
                 <span class="news">[NEW!]</span>
