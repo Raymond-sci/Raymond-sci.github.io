@@ -1,6 +1,8 @@
 <div id="contact">
   <img src="assets/home/thumb.jpg" class="thumb"/>
-  <p><big><strong>{{ site.author.firstname }} {{ site.author.lastname }}</strong></big></p>
+  <p>
+    <big><strong>{{ site.author.firstname }} {{ site.author.lastname }}</strong></big>
+  </p>
   <p>
     {% for affliation in site.author.affliations %}
       {% if affliation.link %}

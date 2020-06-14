@@ -1,6 +1,13 @@
+- date: 2020-06-13
+  content: Code for our CVPR'20 work is available
+  highlight: True
+
+# - date: 2020-06-13
+#   content: Code for our AAAI'20 work is available
+#   highlight: True
+
 - date: 2020-03-05
   content: One paper accepted by CVPR'20
-  highlight: True
 
 - date: 2019-12-11
   content: One paper accepted by AAAI'20
