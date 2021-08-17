@@ -9,11 +9,16 @@
                   {% if author.bold %}<b>{{ author.name }}</b>{% else %}{{ author.name }}{% endif %}{% if author != item.paper.authors.last %}, {% endif %}
                 {% endfor %}
             </span><br/>
+            {% if item.tags contains "accepted" %}
             In Proc.
             <i>{{ item.paper.publish.name }}</i>,
             {{ item.paper.publish.place }},
             {{ item.paper.publish.date | date: "%b %Y"}}. 
             (<b>{{ item.paper.publish.shortname}}</b>).
+            {% elsif item.tags contains "preprint" %}
+            <i>arXiv preprint</i>,
+            {{ item.paper.publish.date | date: "%Y"}}
+            {% endif %}
             <br/>
             <!-- pdf link -->
             {% if item.tags contains "uploaded" %}
