@@ -1,25 +1,29 @@
 - date: 2021-7-23
-  content: One paper accepted by ICCV'21
+  content: One paper accepted by BMVC'21
   highlight: True
 
-- date: 2020-06-13
-  content: Code for our CVPR'20 work is available
+- date: 2021-7-23
+  content: One paper accepted by ICCV'21
+  # highlight: True
+
+# - date: 2020-06-13
+#   content: Code for our CVPR'20 work is available
 
 # - date: 2020-06-13
 #   content: Code for our AAAI'20 work is available
 #   highlight: True
 
-- date: 2020-03-05
-  content: One paper accepted by CVPR'20
+# - date: 2020-03-05
+#   content: One paper accepted by CVPR'20
 
-- date: 2019-12-11
-  content: One paper accepted by AAAI'20
+# - date: 2019-12-11
+#   content: One paper accepted by AAAI'20
 
-- date: 2019-04-29
-  content: Paper and code for our ICML'19 work are available
+# - date: 2019-04-29
+#   content: Paper and code for our ICML'19 work are available
 
-- date: 2019-04-24
-  content: One paper accepted by ICML'19
+# - date: 2019-04-24
+#   content: One paper accepted by ICML'19
 
 # - date: 2018-09-17
 #   content: I am now studying at QMUL as a PhD student
