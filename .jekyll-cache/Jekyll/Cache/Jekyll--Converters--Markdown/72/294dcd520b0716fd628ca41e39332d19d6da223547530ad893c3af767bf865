@@ -1,4 +1,4 @@
-I"Ñ<p><img src="/assets/project/huang2019and/training-pipeline.jpg" alt="cover" width="90%" class="center" />
+I"æ<p><img src="/assets/project/huang2019and/training-pipeline.jpg" alt="cover" width="90%" class="center" />
 <!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
 
 <h2 id="description">Description</h2>
@@ -25,5 +25,5 @@
   <li><strong>Stanford Dogs</strong>: A fine-grained dataset with 12,000/8,580 train/test images of 120 dog breeds.</li>
 </ul>
 
-<p>Please kindly refer to the <a href="https://arxiv.org/abs/1904.11567">paper</a> for more details and feel free to reach <a href="">me</a> for any question.</p>
+<p>Please kindly refer to the <a href="https://arxiv.org/abs/1904.11567">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>
 :ET

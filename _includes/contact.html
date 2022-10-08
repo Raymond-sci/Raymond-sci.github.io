@@ -17,6 +17,13 @@
       {% endif %}
     {% endfor %}
     <!-- Tel: {{ site.author.phone }}<br/> -->
-    E-mail: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <!-- E-mail: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> -->
+    E-mail: {{ site.author.email }}<br/>
+    {% for link in site.author.links %}
+      {% if forloop.index != 1 %}/{% endif %}
+      <a href="{{ link.link }}">
+        {{ link.name }}
+      </a>
+    {% endfor %}
   </p>
 </div>

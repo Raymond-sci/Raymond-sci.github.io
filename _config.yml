@@ -3,7 +3,7 @@ author:
   firstname: Jiabo
   lastname: Huang
   nickname: Raymond
-  email: jiabo.huang@qmul.ac.uk
+  email: jiabo.huang AT qmul.ac.uk
   phone: +0044 07561775861
   affliations:
     - name: Computer Vision Group
@@ -15,11 +15,17 @@ author:
       address:
         - line: Mile End Road
         - line: London, E1 4NS, UK
-        - line: CS Room 329, Peter Landin Building
+        # - line: CS Room 329, Peter Landin Building
   thumb: asserts/home/thumb.jpg
   # baseurl: "" # the subpath of your site, e.g. /blog
   # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-  github:  https://github.com/Raymond-sci
+  links:
+    - name: Github
+      icon: "fa-brands fa-github"
+      link: https://github.com/Raymond-sci
+    - name: "Google Scholar"
+      icon: "fa-brands fa-google"
+      link: https://scholar.google.com/citations?user=o_ecsPcAAAAJ&hl=en
 
 # Project pages setings
 defaults:
