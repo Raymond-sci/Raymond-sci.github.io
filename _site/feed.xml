@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-08T23:59:34+01:00</updated><id>http://localhost:4000/feed.xml</id><author><name>{&quot;firstname&quot;=&gt;&quot;Jiabo&quot;, &quot;lastname&quot;=&gt;&quot;Huang&quot;, &quot;nickname&quot;=&gt;&quot;Raymond&quot;, &quot;email&quot;=&gt;&quot;jiabo.huang AT qmul.ac.uk&quot;, &quot;phone&quot;=&gt;&quot;+0044 07561775861&quot;, &quot;affliations&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Computer Vision Group&quot;, &quot;link&quot;=&gt;&quot;http://www.dcs.qmul.ac.uk/research/vision/&quot;}, {&quot;name&quot;=&gt;&quot;School of Electronic Engineering and Computer Science&quot;, &quot;link&quot;=&gt;&quot;http://www.eecs.qmul.ac.uk/&quot;}, {&quot;name&quot;=&gt;&quot;Queen Mary University of London&quot;, &quot;link&quot;=&gt;&quot;http://www.qmul.ac.uk/&quot;, &quot;address&quot;=&gt;[{&quot;line&quot;=&gt;&quot;Mile End Road&quot;}, {&quot;line&quot;=&gt;&quot;London, E1 4NS, UK&quot;}]}], &quot;thumb&quot;=&gt;&quot;asserts/home/thumb.jpg&quot;, &quot;links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Github&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-github&quot;, &quot;link&quot;=&gt;&quot;https://github.com/Raymond-sci&quot;}, {&quot;name&quot;=&gt;&quot;Google Scholar&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-google&quot;, &quot;link&quot;=&gt;&quot;https://scholar.google.com/citations?user=o_ecsPcAAAAJ&amp;hl=en&quot;}]}</name><email>jiabo.huang AT qmul.ac.uk</email></author><entry><title type="html">cai2022eva</title><link href="http://localhost:4000/projects/cai2022eva" rel="alternate" type="text/html" title="cai2022eva" /><published>2022-10-06T00:00:00+01:00</published><updated>2022-10-06T00:00:00+01:00</updated><id>http://localhost:4000/projects/cai2022eva</id><content type="html" xml:base="http://localhost:4000/projects/cai2022eva"><![CDATA[<p><img src="/assets/project/cai2022eva/pipeline.jpg" alt="cover" width="90%" class="center" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-09T13:23:24+01:00</updated><id>http://localhost:4000/feed.xml</id><author><name>{&quot;firstname&quot;=&gt;&quot;Jiabo&quot;, &quot;lastname&quot;=&gt;&quot;Huang&quot;, &quot;nickname&quot;=&gt;&quot;Raymond&quot;, &quot;email&quot;=&gt;&quot;jiabo.huang AT qmul.ac.uk&quot;, &quot;phone&quot;=&gt;&quot;+0044 07561775861&quot;, &quot;affliations&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Computer Vision Group&quot;, &quot;link&quot;=&gt;&quot;http://www.dcs.qmul.ac.uk/research/vision/&quot;}, {&quot;name&quot;=&gt;&quot;School of Electronic Engineering and Computer Science&quot;, &quot;link&quot;=&gt;&quot;http://www.eecs.qmul.ac.uk/&quot;}, {&quot;name&quot;=&gt;&quot;Queen Mary University of London&quot;, &quot;link&quot;=&gt;&quot;http://www.qmul.ac.uk/&quot;, &quot;address&quot;=&gt;[{&quot;line&quot;=&gt;&quot;Mile End Road&quot;}, {&quot;line&quot;=&gt;&quot;London, E1 4NS, UK&quot;}]}], &quot;thumb&quot;=&gt;&quot;asserts/home/thumb.jpg&quot;, &quot;links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Github&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-github&quot;, &quot;link&quot;=&gt;&quot;https://github.com/Raymond-sci&quot;}, {&quot;name&quot;=&gt;&quot;Google Scholar&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-google&quot;, &quot;link&quot;=&gt;&quot;https://scholar.google.com/citations?user=o_ecsPcAAAAJ&amp;hl=en&quot;}]}</name><email>jiabo.huang AT qmul.ac.uk</email></author><entry><title type="html">cai2022eva</title><link href="http://localhost:4000/projects/cai2022eva" rel="alternate" type="text/html" title="cai2022eva" /><published>2022-10-06T00:00:00+01:00</published><updated>2022-10-06T00:00:00+01:00</updated><id>http://localhost:4000/projects/cai2022eva</id><content type="html" xml:base="http://localhost:4000/projects/cai2022eva"><![CDATA[<p><img src="/assets/project/cai2022eva/pipeline.jpg" alt="cover" width="90%" class="center" />
 <!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
 
 <h2 id="description">Description</h2>
@@ -239,7 +239,89 @@ three video activity localisation benchmark datasets,
 improving existing models that 
 suffer from sensitivity to uncertainties in activity training labels.</p>
 
-<p>Please kindly refer to the <a href="https://arxiv.org/abs/2206.12923">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>]]></content><author><name>{&quot;firstname&quot;=&gt;&quot;Jiabo&quot;, &quot;lastname&quot;=&gt;&quot;Huang&quot;, &quot;nickname&quot;=&gt;&quot;Raymond&quot;, &quot;email&quot;=&gt;&quot;jiabo.huang AT qmul.ac.uk&quot;, &quot;phone&quot;=&gt;&quot;+0044 07561775861&quot;, &quot;affliations&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Computer Vision Group&quot;, &quot;link&quot;=&gt;&quot;http://www.dcs.qmul.ac.uk/research/vision/&quot;}, {&quot;name&quot;=&gt;&quot;School of Electronic Engineering and Computer Science&quot;, &quot;link&quot;=&gt;&quot;http://www.eecs.qmul.ac.uk/&quot;}, {&quot;name&quot;=&gt;&quot;Queen Mary University of London&quot;, &quot;link&quot;=&gt;&quot;http://www.qmul.ac.uk/&quot;, &quot;address&quot;=&gt;[{&quot;line&quot;=&gt;&quot;Mile End Road&quot;}, {&quot;line&quot;=&gt;&quot;London, E1 4NS, UK&quot;}]}], &quot;thumb&quot;=&gt;&quot;asserts/home/thumb.jpg&quot;, &quot;links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Github&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-github&quot;, &quot;link&quot;=&gt;&quot;https://github.com/Raymond-sci&quot;}, {&quot;name&quot;=&gt;&quot;Google Scholar&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-google&quot;, &quot;link&quot;=&gt;&quot;https://scholar.google.com/citations?user=o_ecsPcAAAAJ&amp;hl=en&quot;}]}</name><email>jiabo.huang AT qmul.ac.uk</email></author><category term="project" /><category term="paper" /><category term="accepted" /><category term="public" /><category term="uploaded" /><category term="open-sourced" /><category term="project-page" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">li2021loga</title><link href="http://localhost:4000/projects/li2021loga" rel="alternate" type="text/html" title="li2021loga" /><published>2021-10-26T00:00:00+01:00</published><updated>2021-10-26T00:00:00+01:00</updated><id>http://localhost:4000/projects/li2021loga</id><content type="html" xml:base="http://localhost:4000/projects/li2021loga"><![CDATA[<p><img src="/assets/project/li2021loga/pipeline.jpg" alt="cover" width="90%" class="center" />
+<p>Please kindly refer to the <a href="https://arxiv.org/abs/2206.12923">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>]]></content><author><name>{&quot;firstname&quot;=&gt;&quot;Jiabo&quot;, &quot;lastname&quot;=&gt;&quot;Huang&quot;, &quot;nickname&quot;=&gt;&quot;Raymond&quot;, &quot;email&quot;=&gt;&quot;jiabo.huang AT qmul.ac.uk&quot;, &quot;phone&quot;=&gt;&quot;+0044 07561775861&quot;, &quot;affliations&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Computer Vision Group&quot;, &quot;link&quot;=&gt;&quot;http://www.dcs.qmul.ac.uk/research/vision/&quot;}, {&quot;name&quot;=&gt;&quot;School of Electronic Engineering and Computer Science&quot;, &quot;link&quot;=&gt;&quot;http://www.eecs.qmul.ac.uk/&quot;}, {&quot;name&quot;=&gt;&quot;Queen Mary University of London&quot;, &quot;link&quot;=&gt;&quot;http://www.qmul.ac.uk/&quot;, &quot;address&quot;=&gt;[{&quot;line&quot;=&gt;&quot;Mile End Road&quot;}, {&quot;line&quot;=&gt;&quot;London, E1 4NS, UK&quot;}]}], &quot;thumb&quot;=&gt;&quot;asserts/home/thumb.jpg&quot;, &quot;links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Github&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-github&quot;, &quot;link&quot;=&gt;&quot;https://github.com/Raymond-sci&quot;}, {&quot;name&quot;=&gt;&quot;Google Scholar&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-google&quot;, &quot;link&quot;=&gt;&quot;https://scholar.google.com/citations?user=o_ecsPcAAAAJ&amp;hl=en&quot;}]}</name><email>jiabo.huang AT qmul.ac.uk</email></author><category term="project" /><category term="paper" /><category term="accepted" /><category term="public" /><category term="uploaded" /><category term="open-sourced" /><category term="project-page" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">li2022peca</title><link href="http://localhost:4000/projects/li2022peca" rel="alternate" type="text/html" title="li2022peca" /><published>2022-05-23T00:00:00+01:00</published><updated>2022-05-23T00:00:00+01:00</updated><id>http://localhost:4000/projects/li2022peca</id><content type="html" xml:base="http://localhost:4000/projects/li2022peca"><![CDATA[<p><img src="/assets/project/li2022peca/pipeline.jpg" alt="cover" width="90%" class="center" />
+<!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
+
+<h2 id="description">Description</h2>
+
+<p>Video activity localisation by natural language 
+is an important yet challenging task, 
+which aims to localise temporally a video segment that 
+best corresponds to a query sentence
+in an untrimmed (and often unstructured) video. 
+Most of the existing methods address this task
+in a fully supervised manner
+to learn to localise <em>moment-of-interest</em> (MoI) in videos
+according to their precise start and end time indices.
+Considering the high annotation cost and subjective annotation bias,
+recent works focus on weakly-supervised learning without per-sentence
+temporal boundary annotations in training.</p>
+
+<p>Existing weakly-supervised solutions
+localise different MoIs individually, 
+which is not optimal as it neglects the fact that
+the cross-sentence relations in a paragraph 
+play an important role in temporally localising multiple MoIs. 
+Critically, an individual sentence is sometimes ambiguous 
+out of its paragraph context
+and the MoIs described by a paragraph are often
+semantically related to each other in their corresponding sentences.</p>
+
+<p>In this work,
+we introduce a weakly-supervised method
+for video activity localisation by natural language
+called <em>Cross-sentence Relations Mining</em> (CRM).
+The key idea is to
+explore the cross-sentence relations in a paragraph 
+as constraints to better interpret and match
+complex moment-wise temporal and semantic relations in videos.
+Specifically,
+by assuming different activities in videos are described sequentially,
+we formulate a <em>temporal consistency</em> constraint to encourage
+the selected moments to be temporally ordered according to their
+descriptions in a paragraph.
+Moreover,
+we encourage moment proposal selections to satisfy cross-sentence
+broader semantics in context
+to minimise video-text matching ambiguities.
+To that end, we introduce a <em>semantic consistency</em> constraint
+to ensure that a moment selected for any pairing of two 
+sentences (concatenation) in a paragraph is consistent (overlapping) with
+the union of the selected segments per sentence.</p>
+
+<p>Our <strong>contributions</strong> are:
+<strong>(1)</strong>
+To our best knowledge, 
+this is the first idea to develop a model using <em>cross-sentence relations</em>
+in a paragraph to 
+explicitly represent and compute <em>cross-moment relations</em> in videos,
+so as to alleviate the ambiguity of each individual sentence in video activity localisation.
+<strong>(2)</strong> 
+We formulate a new weakly-supervised method 
+for activity localisation by natural language 
+called <em>Cross-sentence Relations Mining</em> (CRM), 
+that trains a model with both temporal and semantic cross-sentence relations to improve
+per-sentence temporal boundary prediction in testing.
+<strong>(3)</strong>
+Our approach achieves the state-of-the-art performance 
+on two available activity localisation benchmarks,
+especially so given more complex query descriptions.</p>
+
+<h2 id="benchmarks">Benchmarks</h2>
+<p>Experiments were conducted on two challenging video activity localisation benchmarks
+which demonstrate the compelling multi-modal understanding ability
+of CRM over a wide range of the state-of-the-art approaches.</p>
+<ul>
+  <li>
+    <p><strong>Charades-STA</strong> contains 12,408/3720 video-query pairs from 5338/1334 videos for training and testing, respectively. The query sentences are composed of 7.2 words on average and the average duration of the MoIs and videos are 8.1 and 30.6 seconds.</p>
+  </li>
+  <li>
+    <p><strong>ActivityNet-Captions</strong> is a larger-scale dataset composed of 19,290 videos with 37,417/17,505/17,031 MoIs in the train/val_1/val_2 split. The average length of queries is 14 words
+while that of the MoIs and untrimmed videos are 36.2 and 117.6 seconds.</p>
+  </li>
+</ul>
+
+<p>Please kindly refer to the <a href="https://arxiv.org/pdf/2205.11197.pdf">paper</a> for more details and feel free to reach <a href="http://localhost:4000">me</a> for any question.</p>]]></content><author><name>{&quot;firstname&quot;=&gt;&quot;Jiabo&quot;, &quot;lastname&quot;=&gt;&quot;Huang&quot;, &quot;nickname&quot;=&gt;&quot;Raymond&quot;, &quot;email&quot;=&gt;&quot;jiabo.huang AT qmul.ac.uk&quot;, &quot;phone&quot;=&gt;&quot;+0044 07561775861&quot;, &quot;affliations&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Computer Vision Group&quot;, &quot;link&quot;=&gt;&quot;http://www.dcs.qmul.ac.uk/research/vision/&quot;}, {&quot;name&quot;=&gt;&quot;School of Electronic Engineering and Computer Science&quot;, &quot;link&quot;=&gt;&quot;http://www.eecs.qmul.ac.uk/&quot;}, {&quot;name&quot;=&gt;&quot;Queen Mary University of London&quot;, &quot;link&quot;=&gt;&quot;http://www.qmul.ac.uk/&quot;, &quot;address&quot;=&gt;[{&quot;line&quot;=&gt;&quot;Mile End Road&quot;}, {&quot;line&quot;=&gt;&quot;London, E1 4NS, UK&quot;}]}], &quot;thumb&quot;=&gt;&quot;asserts/home/thumb.jpg&quot;, &quot;links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;Github&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-github&quot;, &quot;link&quot;=&gt;&quot;https://github.com/Raymond-sci&quot;}, {&quot;name&quot;=&gt;&quot;Google Scholar&quot;, &quot;icon&quot;=&gt;&quot;fa-brands fa-google&quot;, &quot;link&quot;=&gt;&quot;https://scholar.google.com/citations?user=o_ecsPcAAAAJ&amp;hl=en&quot;}]}</name><email>jiabo.huang AT qmul.ac.uk</email></author><category term="project" /><category term="paper" /><category term="preprint" /><category term="public" /><category term="uploaded" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">li2021loga</title><link href="http://localhost:4000/projects/li2021loga" rel="alternate" type="text/html" title="li2021loga" /><published>2021-10-26T00:00:00+01:00</published><updated>2021-10-26T00:00:00+01:00</updated><id>http://localhost:4000/projects/li2021loga</id><content type="html" xml:base="http://localhost:4000/projects/li2021loga"><![CDATA[<p><img src="/assets/project/li2021loga/pipeline.jpg" alt="cover" width="90%" class="center" />
 <!--*Figure 1. Overview of the proposed Anchor Neighbourhood Discovery (AND) method for unsupervised deep learning.*{:.center}--></p>
 
 <h2 id="description">Description</h2>
