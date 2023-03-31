@@ -1,13 +1,16 @@
+- date: 2023-3-31
+  content: One paper accepted by CVPR'23
+  highlight: True
+
 - date: 2022-10-06
   content: Two papers accepted by BMVC'22
-  highlight: True
 
-- date: 2022-7-28
-  content: I'm awareded as an outstanding reviewer by CVPR'22
-  highlight: True
+# - date: 2022-7-28
+#   content: I'm awareded as an outstanding reviewer by CVPR'22
+#   highlight: True
 
-- date: 2022-7-23
-  content: One paper accepted by ECCV'22
+# - date: 2022-7-23
+#   content: One paper accepted by ECCV'22
 
 # - date: 2021-7-23
 #   content: One paper accepted by BMVC'21
